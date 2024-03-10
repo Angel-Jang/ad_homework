@@ -164,7 +164,7 @@ def dockedOptions():
             elif option == "2":
                 option = ""
                 print("")
-                print("Supplies Restocked to 100%.")
+                print("Supplies Restocked to 100%")
                 missileCounter = 25
             elif option == "3":
                 option = ""
@@ -199,7 +199,7 @@ def sailingOptions():
         if option == "1":
             option = ""
             print("")
-            print("\"You get up to grab a caned lemonade, kick back in your captains seat and watch the slow waves flow by.\"")
+            print("\"You get up to grab a canned lemonade, kick back in your captains seat and watch the slow waves flow by.\"")
             counter += 1
         elif option == "2":
             option = ""
@@ -238,7 +238,7 @@ def sailingOptions():
                 print("\"Wow, You actually managed to find something good\"")
             elif chance == 2:
                 print("\"You feel something on the end of your line and excitedly reel in\"")
-                print("\"Jist to find a boot\"" + "\U0001F603")
+                print("\"Just to find a boot\"" + "\U0001F603")
             elif chance == 3:
                 print("\"You somehow managed reel in a missile\"")
                 missileCounter += 1
